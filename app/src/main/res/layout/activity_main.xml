@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Fetching API Data with Volley and Populating below spinner with JSON Data"/>
+
+    <Spinner
+        android:id="@+id/spCompany"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/spinner"
+        android:spinnerMode="dropdown"/>
+
+</LinearLayout>
